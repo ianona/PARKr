@@ -10,3 +10,145 @@
     font-family: smallFont;
     src: url(font/GothamLightRegular.otf);
 }
+
+html 
+{
+	height:100%;
+}
+
+body
+{
+	background: url(images/bg.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+	height: 100%;
+	font-family: bigFont;
+	color: white;
+}
+
+header
+{
+	font-family: smallFont;
+}
+
+.secondary {
+	background: #FAD149;
+	border-radius: 0;
+	color:black;
+	padding:10px;
+	padding-left: 50px;
+	font-family: bigFont;
+
+}
+
+.secondary li a:hover{
+	text-decoration: none;
+	background: #c1a138;
+	color:white;
+}
+
+.dropdown-submenu {
+    position: relative;
+    background: #FAD149;
+	border-radius: 0;
+	color:white;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+}
+
+.parallax 
+{
+    /* The image used */
+    background-image: url(images/lasalle.png);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-sm
+{
+    /* The image used */
+    background-image: url(images/lasalle.png);
+
+    /* Full height */
+    height: 20%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+	background-color:rgba(3,16,68,.7);
+	background-color:rgba(255,255,255,.7);
+	position: absolute;
+	font-size:2.5vw;
+	text-align: center;
+	vertical-align: middle;
+	width:100%;
+	color:#031044;
+}
+
+.jumbotron h1{
+	font-size:3vw;
+}
+.jumbotron p{
+	font-size:2vw;
+}
+
+.navbar-brand {
+  padding: 5px;
+}
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+.navbar-default {
+	border: 0;
+	background: #ffffff;
+}
+.dropdown-menu {
+	background: #FAD149;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-default .navbar-nav li a {
+	color: #031044;
+	font-size: 16px;
+}
+.navbar-default .navbar-nav li a:hover {
+	background: #FAD149;
+}
+.navbar-default .navbar-nav .dropdown-menu li a:hover {
+	background: #c1a138;
+}
+.dropdown-menu li a {
+	padding: 10px;
+}
