@@ -1,0 +1,12 @@
+@font-face 
+{
+    font-family: bigFont;
+    font-weight: bold;
+    src: url(font/GothamMedium.otf);
+}
+
+@font-face 
+{
+    font-family: smallFont;
+    src: url(font/GothamLightRegular.otf);
+}
