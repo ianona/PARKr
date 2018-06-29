@@ -16,7 +16,8 @@ public class PARKR {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
+        test_frame tf = new test_frame();
+        tf.setVisible(true);
     }
     
 }
