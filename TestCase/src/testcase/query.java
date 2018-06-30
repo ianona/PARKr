@@ -27,7 +27,7 @@ public class query {
                 String mall = rs.getString("Mall");
                 int queue = rs.getInt("Queue");
                 
-                String s = name + "         :        " + mall + "         :        " + queue;
+                String s = name + "       :      " + mall + "       :      " + queue;
                 entries.add(s);
             }
 
