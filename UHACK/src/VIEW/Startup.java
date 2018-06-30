@@ -32,11 +32,11 @@ public class Startup
 				type.equals(textField.getText());
 				if(type.equals("admin"))
 				{
-					Business.main(args);
+					//Business.main(args);
 				}
 				else
 				{
-					Client.main(args);
+					//Client.main(args);
 				}
 			}
 		});
