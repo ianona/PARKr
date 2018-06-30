@@ -1,5 +1,6 @@
 package VIEW;
 
-public class Business {
+public class Business 
+{
 
 }
