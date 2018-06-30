@@ -160,8 +160,8 @@ public class adminFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
         String main = jList1.getSelectedValue();
         String[] temp = main.split(":");
-        String name = temp[0];
-        String mall = temp[1];
+        String name = temp[0].trim();
+        String mall = temp[1].trim();
         q.incrementQueueSQL(name, mall);
         intializeList();
     }//GEN-LAST:event_addBtnActionPerformed
