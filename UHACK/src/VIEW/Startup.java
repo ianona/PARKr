@@ -13,11 +13,13 @@ import javax.swing.JTextField;
 import javax.swing.JPasswordField;
 
 public class Startup 
-{
+{	
 	private static JTextField textField;
 	private static JPasswordField passwordField;
 	public static void main(String[] args)
 	{
+		String type = "yo";
+		
 		JFrame mF = new JFrame("QUICKr");
 		
 		
@@ -25,6 +27,19 @@ public class Startup
 		mF.getContentPane().setLayout(null);
 		
 		JButton btnLogin = new JButton("Login");
+		btnLogin.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				type.equals(textField.getText());
+				if(type.equals("admin"))
+				{
+					Business.main(args);
+				}
+				else
+				{
+					Client.main(args);
+				}
+			}
+		});
 		btnLogin.setBounds(62, 274, 117, 29);
 		mF.getContentPane().add(btnLogin);
 		
